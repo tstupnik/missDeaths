@@ -1,0 +1,25 @@
+{
+    "id": "132C77B0",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1602239819982.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "id": "b1d7c89f0f914e84ab5c8af650b8d869",
+        "name": "sex",
+        "title": "sex"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 7952292847551393824,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1602239819982,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,24 @@
+{
+    "id": "924C5CB1",
+    "path": "~/PhD/missDeaths_2.7/missDeaths.Rcheck/00_pkg_src/missDeaths/R/library.R",
+    "project_path": "missDeaths.Rcheck/00_pkg_src/missDeaths/R/library.R",
+    "type": "r_source",
+    "hash": "220688429",
+    "contents": "",
+    "dirty": false,
+    "created": 1602275219834.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "228,2",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1488013170,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1488013170,
+    "read_only": false,
+    "read_only_alternatives": []
+}

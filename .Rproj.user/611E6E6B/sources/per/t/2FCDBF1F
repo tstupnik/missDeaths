@@ -1,0 +1,24 @@
+{
+    "id": "2FCDBF1F",
+    "path": "~/PhD/missDeaths_2.7/missDeaths/src/RcppExports.cpp",
+    "project_path": "missDeaths/src/RcppExports.cpp",
+    "type": "cpp",
+    "hash": "3647995604",
+    "contents": "",
+    "dirty": false,
+    "created": 1602929738955.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "cursorPosition": "82,41",
+        "scrollLine": "54"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1602929819,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1602929819667,
+    "read_only": true,
+    "read_only_alternatives": []
+}

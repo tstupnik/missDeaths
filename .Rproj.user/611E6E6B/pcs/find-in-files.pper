@@ -1,0 +1,9 @@
+{
+    "dialog-state": {
+        "caseSensitive": false,
+        "filePatterns": [],
+        "path": "~/PhD",
+        "query": "survexp",
+        "regex": false
+    }
+}

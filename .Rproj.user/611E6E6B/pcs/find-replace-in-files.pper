@@ -1,0 +1,13 @@
+{
+    "dialog-state": {
+        "query": "md.survtime",
+        "path": "~/PhD",
+        "regex": false,
+        "caseSensitive": false,
+        "filePatterns": [],
+        "excludeFilePatterns": [],
+        "resultsCount": 0,
+        "errorCount": 0,
+        "replaceErrors": ""
+    }
+}

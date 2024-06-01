@@ -1,0 +1,24 @@
+{
+    "id": "51C7A45B",
+    "path": "~/PhD/missDeaths_2.7/missDeaths/src/init.c",
+    "project_path": "missDeaths/src/init.c",
+    "type": "c",
+    "hash": "2067518072",
+    "contents": "",
+    "dirty": false,
+    "created": 1602929876102.0,
+    "source_on_save": false,
+    "relative_order": 9,
+    "properties": {
+        "cursorPosition": "12,46",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1602929904,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1602929904604,
+    "read_only": false,
+    "read_only_alternatives": []
+}

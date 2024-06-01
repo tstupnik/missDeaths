@@ -1,0 +1,24 @@
+{
+    "id": "3F703905",
+    "path": "~/PhD/missDeaths_2.7/test.R",
+    "project_path": "test.R",
+    "type": "r_source",
+    "hash": "1950989886",
+    "contents": "",
+    "dirty": false,
+    "created": 1602184123513.0,
+    "source_on_save": false,
+    "relative_order": 8,
+    "properties": {
+        "cursorPosition": "257,0",
+        "scrollLine": "241"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1602930503,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1602930503621,
+    "read_only": false,
+    "read_only_alternatives": []
+}

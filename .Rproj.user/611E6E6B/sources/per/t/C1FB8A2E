@@ -1,0 +1,24 @@
+{
+    "id": "C1FB8A2E",
+    "path": "~/PhD/missDeaths_2.7/missDeaths/R/exports.R",
+    "project_path": "missDeaths/R/exports.R",
+    "type": "r_source",
+    "hash": "4110383596",
+    "contents": "",
+    "dirty": false,
+    "created": 1602886693858.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "cursorPosition": "70,1",
+        "scrollLine": "49"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1602929944,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1602929944373,
+    "read_only": false,
+    "read_only_alternatives": []
+}

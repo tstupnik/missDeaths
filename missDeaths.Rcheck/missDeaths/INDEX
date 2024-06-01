@@ -1,0 +1,25 @@
+md.D                    Prepare compatible demographic information
+md.binom                md.binom
+md.censor               Censoring simulated survival data
+md.constant             md.constant
+md.data                 md.data
+md.death                md.death
+md.eval                 md.eval
+md.exp                  md.exp
+md.impute               Correctly impute missing information of
+                        possible deaths using population mortality
+md.mvnorm               md.mvnorm
+md.norm                 md.norm
+md.sample               md.sample
+md.sex                  md.sex
+md.simparams            md.simparams
+md.simulate             md.simulate
+md.survcox              Fit a proportional hazards regression model
+                        over disease recurrence data with missing
+                        information of possible deaths
+md.survnp               Nonparametric analysis of disease recurrence
+                        with missing information of possible deaths
+md.uniform              md.uniform
+missDeaths              Simulating and analyzing time to event data in
+                        the presence of population mortality
+observed                A simulated dataset with non-recorded deaths
