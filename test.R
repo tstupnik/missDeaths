@@ -1,6 +1,7 @@
-setwd(dir="C:/Users/tomaz/Documents/My Documents/PhD/missDeaths_2.4/missDeaths")
-devtools::check()
+setwd(dir="~/Documents/R/missDeaths_2.7/missDeaths")
+#devtools::check()
 
+detach("package:missDeaths", unload=TRUE)
 library(missDeaths)
 
 ratetable = survexp.us

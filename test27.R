@@ -1,24 +1,30 @@
-setwd(dir="C:/Users/tomaz/Documents/PhD/missDeaths_2.7")
+setwd(dir="~/Documents/R/missDeaths/")
+system("bash rebuild.sh")
 #devtools::check()
 #Sys.which("make")
 
 detach("package:missDeaths", unload=TRUE)
-#remove.packages("missDeaths", lib="~/R/win-library/4.0")
-#install.packages("c:\\users\\tomaz\\Documents\\PhD\\missdeaths_2.7\\missDeaths_2.7.tar.gz", repos = NULL, type="source")
+remove.packages("missDeaths", lib="~/R/win-library/4.0")
+install.packages("~/Documents/R/missDeaths/missDeaths_2.8.tar.gz", repos = NULL, type="source")
 
-
+sp2 = slopop
+sex = 1
+sp2[,,] <- 0.0000125# 0.000001
 
 library(missDeaths)
-md.init(survexp.us)
+md.init(sp2)#survexp.us)
 
 
-dt = as.Date("1940-1-1")
-mdsurv = md.survdump(year = as.numeric(format(dt,'%Y')), sex=1)
+dt = as.Date("1990-1-1")
+mdsurv = md.survdump(year = as.numeric(format(dt,'%Y')), sex=sex)
 
-data = data.frame(year = as.numeric(dt), sex = "male", age = 0)
-surv = survexp( ~ 1, times=mdsurv$times, ratetable=survexp.us, data=data)
+data = data.frame(year = as.numeric(dt), sex = sex, age = 0)
+surv = survexp( ~ 1, times=mdsurv$times, ratetable=sp2, data=data)
 mdsurv$surv - surv$surv
 
+sp2[,,] <- 0.0000125
+md.init(sp2)
+md.survtime(2000, 10, 0.5, sex)/365.24
 
 
 set.seed(710)
