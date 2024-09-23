@@ -20,6 +20,7 @@ md.simdataobject-init	md.simdataobject
 md.simparams	md.simparams
 md.simulate	md.simulate
 md.survcox	md.survcox
+md.survdump	md.survdump
 md.survnp	md.survnp
 md.survprob	md.survprob
 md.survtime	md.survtime

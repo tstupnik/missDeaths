@@ -1,12 +1,16 @@
-* using log directory 'C:/Users/tomaz/Documents/PhD/missDeaths_2.7/missDeaths.Rcheck'
-* using R version 4.0.0 (2020-04-24)
-* using platform: x86_64-w64-mingw32 (64-bit)
-* using session charset: ISO8859-1
-* using option '--as-cran'
-* checking for file 'missDeaths/DESCRIPTION' ... OK
-* this is package 'missDeaths' version '2.7'
-* checking CRAN incoming feasibility ... Note_to_CRAN_maintainers
-Maintainer: 'Tomaz Stupnik <tomaz.stupnik@guest.arnes.si>'
+* using log directory ‘/Users/tomaz/Documents/R/missDeaths/missDeaths.Rcheck’
+* using R version 4.4.1 (2024-06-14)
+* using platform: aarch64-apple-darwin20
+* R was compiled by
+    Apple clang version 14.0.0 (clang-1400.0.29.202)
+    GNU Fortran (GCC) 12.2.0
+* running under: macOS 15.0
+* using session charset: UTF-8
+* using options ‘--no-manual --as-cran’
+* checking for file ‘missDeaths/DESCRIPTION’ ... OK
+* this is package ‘missDeaths’ version ‘2.8’
+* checking CRAN incoming feasibility ... [3s/13s] Note_to_CRAN_maintainers
+Maintainer: ‘Tomaz Stupnik <tomaz.stupnik@guest.arnes.si>’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,8 +18,12 @@ Maintainer: 'Tomaz Stupnik <tomaz.stupnik@guest.arnes.si>'
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
 * checking serialization versions ... OK
-* checking whether package 'missDeaths' can be installed ... OK
+* checking whether package ‘missDeaths’ can be installed ... OK
+* used C compiler: ‘Apple clang version 16.0.0 (clang-1600.0.26.3)’
+* used C++ compiler: ‘Apple clang version 16.0.0 (clang-1600.0.26.3)’
+* used SDK: ‘MacOSX15.0.sdk’
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking for future file timestamps ... OK
@@ -24,24 +32,15 @@ Maintainer: 'Tomaz Stupnik <tomaz.stupnik@guest.arnes.si>'
 * checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... OK
-* checking R files for non-ASCII characters ... OK
+* checking code files for non-ASCII characters ... OK
 * checking R files for syntax errors ... OK
-* loading checks for arch 'i386'
-** checking whether the package can be loaded ... OK
-** checking whether the package can be loaded with stated dependencies ... OK
-** checking whether the package can be unloaded cleanly ... OK
-** checking whether the namespace can be loaded with stated dependencies ... OK
-** checking whether the namespace can be unloaded cleanly ... OK
-** checking loading without being on the library search path ... OK
-** checking use of S3 registration ... OK
-* loading checks for arch 'x64'
-** checking whether the package can be loaded ... OK
-** checking whether the package can be loaded with stated dependencies ... OK
-** checking whether the package can be unloaded cleanly ... OK
-** checking whether the namespace can be loaded with stated dependencies ... OK
-** checking whether the namespace can be unloaded cleanly ... OK
-** checking loading without being on the library search path ... OK
-** checking use of S3 registration ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking whether startup messages can be suppressed ... OK
+* checking use of S3 registration ... OK
 * checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
@@ -56,7 +55,7 @@ Maintainer: 'Tomaz Stupnik <tomaz.stupnik@guest.arnes.si>'
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK
@@ -69,18 +68,8 @@ Maintainer: 'Tomaz Stupnik <tomaz.stupnik@guest.arnes.si>'
 * checking pragmas in C/C++ headers and code ... OK
 * checking compilation flags used ... OK
 * checking compiled code ... OK
-* checking examples ...
-** running examples for arch 'i386' ... OK
-** running examples for arch 'x64' ... OK
-* checking PDF version of manual ... WARNING
-LaTeX errors when creating PDF version.
-This typically indicates Rd problems.
-* checking PDF version of manual without hyperrefs or index ... ERROR
-Re-running with no redirection of stdout/stderr.
-* checking for non-standard things in the check directory ... NOTE
-Found the following files/directories:
-  'examples_i386' 'examples_x64' 'missDeaths-Ex_i386.Rout'
-  'missDeaths-Ex_x64.Rout' 'missDeaths-manual.tex'
+* checking examples ... OK
+* checking for non-standard things in the check directory ... OK
 * checking for detritus in the temp directory ... OK
 * DONE
-Status: 1 ERROR, 1 WARNING, 1 NOTE
+Status: OK

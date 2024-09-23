@@ -9,7 +9,7 @@ install.packages("~/Documents/R/missDeaths/missDeaths_2.8.tar.gz", repos = NULL,
 
 sp2 = slopop
 sex = 1
-sp2[,,] <- 0.0000125# 0.000001
+sp2[,,] <- slopop["0","1990","female"]#0.0000125# 0.000001
 
 library(missDeaths)
 md.init(sp2)#survexp.us)
@@ -21,11 +21,17 @@ mdsurv = md.survdump(year = as.numeric(format(dt,'%Y')), sex=sex)
 data = data.frame(year = as.numeric(dt), sex = sex, age = 0)
 surv = survexp( ~ 1, times=mdsurv$times, ratetable=sp2, data=data)
 mdsurv$surv - surv$surv
+mdsurv$surv[1800]
 
 sp2[,,] <- 0.0000125
 md.init(sp2)
-md.survtime(2000, 10, 0.5, sex)/365.24
 
+
+
+
+alpha = log(mdsurv$surv[1800])/1800
+t = log(0.1) / alpha
+t/12
 
 set.seed(710)
 library(missDeaths)

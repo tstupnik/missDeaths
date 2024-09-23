@@ -5,7 +5,7 @@ library(missDeaths)
 # 1. Vzamemo enostaven ratetable, kjer je pop hazard konstanten:
 sp2 <- slopop
 yr <- "1990"
-sp2[,,] <- 0.000001#slopop["0",yr,"female"]
+sp2[,,] <- slopop["0",yr,"female"]
 
 times = (0:100)*365
 data = data.frame(age=10,year=2000,sex=1)
@@ -20,7 +20,7 @@ sim <- md.simparams() +
   md.eval("status", "1")
 
 set.seed(808)
-data <- md.simulate(sim, 100000)
+data <- md.simulate(sim, 10000)
 # Tole naredimo, ker se pojavijo negativni casi spremljanja:
 data <- data %>%
   filter(age_death_other>0)
@@ -37,3 +37,11 @@ lines(xx, exp(-xx*365.241*sp2[1,1,1]), col='green', type='s')
 # Vendar, ce nastavimo yr = 1930, 1948, 1952 dela OK. Potem pri 1960, 1970, 1980... ne dobimo
 # vec enakih prezivetij (s povecevanjem leta se razlika povecuje).
 # A je mogoče problem v as.Date (povezano z argumentom origin) v md.death?
+
+data = data.frame(year = as.numeric(as.Date(paste0(yr, "-01-01"))), sex = "female", age = 0)
+surv = survexp( ~ 1, times=xx*365.241, ratetable=sp2, data=data)
+surv$surv - exp(-xx*365.241*sp2[1,1,1])
+
+md.survdump(data$year, 1)
+
+

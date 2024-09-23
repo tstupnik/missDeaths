@@ -1,0 +1,7 @@
+.gitignore
+^\.Rproj\.user$
+^.*\.Rproj$
+^\.travis\.yml$
+*.o
+*.so
+^\.DS_Store
