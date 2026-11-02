@@ -1,0 +1,64 @@
+* installing *source* package ‘missDeaths’ ...
+** this is package ‘missDeaths’ version ‘2.9’
+** using staged installation
+** libs
+using C compiler: ‘Apple clang version 21.0.0 (clang-2100.3.34.2)’
+using C++ compiler: ‘Apple clang version 21.0.0 (clang-2100.3.34.2)’
+using SDK: ‘’
+clang++ -arch arm64 -std=gnu++17 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I'/private/tmp/missDeaths-cran-library/Rcpp/include' -I/opt/R/arm64/include    -fPIC  -falign-functions=64 -Wall -g -O2   -c RcppExports.cpp -o RcppExports.o
+In file included from RcppExports.cpp:4:
+In file included from /private/tmp/missDeaths-cran-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/missDeaths-cran-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/missDeaths-cran-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Library/Frameworks/R.framework/Resources/include/R.h:70:
+/Library/Frameworks/R.framework/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+clang -arch arm64 -std=gnu2x -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I'/private/tmp/missDeaths-cran-library/Rcpp/include' -I/opt/R/arm64/include   -fvisibility=hidden -fPIC  -falign-functions=64 -Wall -g -O2  -c init.c -o init.o
+In file included from init.c:1:
+In file included from /Library/Frameworks/R.framework/Resources/include/R.h:70:
+/Library/Frameworks/R.framework/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+clang++ -arch arm64 -std=gnu++17 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I'/private/tmp/missDeaths-cran-library/Rcpp/include' -I/opt/R/arm64/include    -fPIC  -falign-functions=64 -Wall -g -O2   -c simcensor.cpp -o simcensor.o
+In file included from simcensor.cpp:1:
+In file included from /private/tmp/missDeaths-cran-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/missDeaths-cran-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/missDeaths-cran-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Library/Frameworks/R.framework/Resources/include/R.h:70:
+/Library/Frameworks/R.framework/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+clang++ -arch arm64 -std=gnu++17 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I'/private/tmp/missDeaths-cran-library/Rcpp/include' -I/opt/R/arm64/include    -fPIC  -falign-functions=64 -Wall -g -O2   -c survexpcache.cpp -o survexpcache.o
+In file included from survexpcache.cpp:1:
+In file included from /private/tmp/missDeaths-cran-library/Rcpp/include/Rcpp.h:27:
+In file included from /private/tmp/missDeaths-cran-library/Rcpp/include/RcppCommon.h:30:
+In file included from /private/tmp/missDeaths-cran-library/Rcpp/include/Rcpp/r/headers.h:71:
+In file included from /Library/Frameworks/R.framework/Resources/include/R.h:70:
+/Library/Frameworks/R.framework/Resources/include/R_ext/Boolean.h:62:36: warning: unknown warning group '-Wfixed-enum-extension', ignored [-Wunknown-warning-option]
+   62 | #  pragma clang diagnostic ignored "-Wfixed-enum-extension"
+      |                                    ^
+1 warning generated.
+clang++ -arch arm64 -std=gnu++17 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -L/Library/Frameworks/R.framework/Resources/lib -L/opt/R/arm64/lib -o missDeaths.so RcppExports.o init.o simcensor.o survexpcache.o -F/Library/Frameworks/R.framework/.. -framework R
+installing to /Users/tomaz/Dev/R/missDeaths/cran-submission-check/missDeaths.Rcheck/00LOCK-missDeaths/00new/missDeaths/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+Warning messages:
+1: package ‘rms’ was built under R version 4.5.2 
+2: package ‘Hmisc’ was built under R version 4.5.2 
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: package ‘rms’ was built under R version 4.5.2
+Warning: package ‘Hmisc’ was built under R version 4.5.2
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+Warning: package ‘rms’ was built under R version 4.5.2
+Warning: package ‘Hmisc’ was built under R version 4.5.2
+** testing if installed package keeps a record of temporary installation path
+* DONE (missDeaths)

@@ -5,7 +5,8 @@
 #' @importFrom stats qchisq runif rbinom rnorm rexp
 #' @importFrom MASS mvrnorm
 #' @importFrom methods new callNextMethod is
-#' @import survival rms relsurv cmprsk
+#' @import survival relsurv cmprsk
+#' @rawNamespace import(rms, except = cluster)
 NULL
 
 

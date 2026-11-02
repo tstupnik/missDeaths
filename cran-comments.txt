@@ -1,0 +1,28 @@
+missDeaths 2.9
+
+This update fixes a namespace import conflict between rms and survival by
+excluding cluster from the rms imports. The roxygen source was updated to
+preserve the fix when NAMESPACE is regenerated.
+
+Local test environment:
+  macOS 27.0.1, arm64
+  R 4.5.1 (2025-06-13)
+  Apple clang 21.0.0
+
+Check command:
+  R_LIBS=/private/tmp/missDeaths-cran-library R_RD4PDF=lm,hyper \
+    R CMD check --as-cran --output=cran-submission-check missDeaths_2.9.tar.gz
+
+Final local result: 0 ERRORs, 1 WARNING, 1 NOTE.
+Installation, loading/unloading, code analysis, compiled code, examples,
+Rd documentation, and PDF manual generation completed successfully.
+
+Local environment limitations:
+  Installation warnings concern an unrecognized diagnostic pragma in R's
+  R_ext/Boolean.h and rms/Hmisc binaries built under R 4.5.2.
+  HTML validation is skipped because the installed HTML Tidy is too old.
+  The PDF manual is built using Latin Modern fonts because the local BasicTeX
+  installation lacks the default inconsolata font and Courier font metrics.
+
+R-devel and Windows checks have not been run. Reverse dependency checks
+have not been run. This file records local results only.

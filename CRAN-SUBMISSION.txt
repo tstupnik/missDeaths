@@ -1,0 +1,30 @@
+missDeaths 2.9 submission preparation
+
+Upload candidate: missDeaths_2.9.tar.gz
+Submission form: https://cran.r-project.org/submit.html
+Submission comments: cran-comments.txt
+Final local check log: cran-submission-check/missDeaths.Rcheck/00check.log
+
+Final local result: 0 errors, 1 warning, 1 note.
+The warning concerns local R/compiler/dependency versions; the note concerns
+the installed HTML Tidy version. See cran-comments.txt for details.
+
+Before uploading:
+1. Review the final local check log and resolve or explain every warning/note.
+2. Check the source archive with a current R-devel version, as requested by
+   CRAN's submission checklist. A Windows R-devel check can be requested at
+   https://win-builder.r-project.org/ (not requested during this preparation).
+3. Update cran-comments.txt with those additional results.
+4. Upload the source .tar.gz using the existing maintainer name and email in
+   DESCRIPTION, then follow CRAN's email confirmation instructions.
+
+No submission or external check request has been sent.
+
+To reproduce the local check, install required dependencies into an R library,
+then run R CMD check --as-cran missDeaths_2.9.tar.gz. The local temporary library
+used for this preparation is /private/tmp/missDeaths-cran-library. It may be
+removed by the operating system. R_RD4PDF=lm,hyper is needed with the currently
+installed BasicTeX fonts; a full TeX installation can use R's default fonts.
+
+CRAN checklist:
+https://cran.r-project.org/web/packages/submission_checklist.html

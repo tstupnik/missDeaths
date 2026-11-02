@@ -1,0 +1,4 @@
+Changes in missDeaths 2.9
+
+* Fix the namespace import conflict between rms and survival by excluding
+  cluster from the rms imports.
